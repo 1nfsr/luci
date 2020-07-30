@@ -32,6 +32,16 @@
 		}
 	},
 
+	"uci-access": {
+        "description": "Grant uci write access to all configurations",
+        "read": {
+            "uci": [ "*" ]
+        },
+        "write": {
+            "uci": [ "*" ]
+        }
+    },
+
 	"luci-base-network-status": {
 		"description": "Grant access to network status information",
 		"read": {
