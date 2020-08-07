@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-07-15 12:02+0000\n"
+"PO-Revision-Date: 2020-08-07 03:35+0000\n"
 "Last-Translator: Petri Asikainen <uniluodossa@gmail.com>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/openwrt/luci/fi/>"
 "\n"
@@ -1164,7 +1164,7 @@ msgstr "Tarkistetaan arkistoa…"
 msgid "Checking image…"
 msgstr "Tarkistetaan kuvaa…"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:392
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:399
 msgid "Choose mtdblock"
 msgstr "Valitse mtdblock"
 
@@ -1204,7 +1204,7 @@ msgid ""
 msgstr ""
 "Napsauta \"Luo arkisto\" ja lataa nykyisten määritystiedostojen tar-arkisto."
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:389
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:396
 msgid ""
 "Click \"Save mtdblock\" to download specified mtdblock file. (NOTE: THIS "
 "FEATURE IS FOR PROFESSIONALS! )"
@@ -1292,7 +1292,7 @@ msgid "Compute outgoing checksum (optional)."
 msgstr "Laske lähtevä tarkistussumma."
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3987
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:421
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:426
 msgid "Configuration"
 msgstr "Määritys"
 
@@ -1329,7 +1329,7 @@ msgstr "Yhteyden muodostaminen epäonnistui"
 
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:40
 msgid "Connection attempt failed."
-msgstr ""
+msgstr "Yhteyden muodostaminen epäonnistui."
 
 #: modules/luci-base/htdocs/luci-static/resources/rpc.js:414
 msgid "Connection lost"
@@ -1669,7 +1669,7 @@ msgstr "Laite käynnistyy uudelleen…"
 
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:45
 msgid "Device not managed by ModemManager."
-msgstr ""
+msgstr "ModemManager ei hallitse laitetta."
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:4122
 msgid "Device unreachable!"
@@ -1755,7 +1755,7 @@ msgstr "Irrotusyritys epäonnistui"
 
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:48
 msgid "Disconnection attempt failed."
-msgstr ""
+msgstr "Yhteyden katkaiseminen epäonnistui."
 
 #: modules/luci-base/htdocs/luci-static/resources/form.js:606
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2707
@@ -1859,7 +1859,7 @@ msgstr "Viivästyminen"
 msgid "Download backup"
 msgstr "Lataa varmuuskopio"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:399
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:404
 msgid "Download mtdblock"
 msgstr "Lataa mtd-osio"
 
@@ -2341,7 +2341,7 @@ msgid "Fixed source port for outbound DNS queries"
 msgstr "Kiinteä lähdeportti lähteville DNS-kyselyille"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:283
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:416
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:421
 msgid "Flash image..."
 msgstr "Kirjoita levykuva..."
 
@@ -2349,7 +2349,7 @@ msgstr "Kirjoita levykuva..."
 msgid "Flash image?"
 msgstr "Kirjoita levykuva?"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:406
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:411
 msgid "Flash new firmware image"
 msgstr "Kirjoita uusi laiteohjelmiston levykuva"
 
@@ -3032,7 +3032,7 @@ msgstr "Älä huomioi sovitinta"
 msgid "Ignore resolve file"
 msgstr "Ohita resolv-tiedosto"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:414
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:419
 msgid "Image"
 msgstr "Levykuva"
 
@@ -3903,6 +3903,8 @@ msgid ""
 "Modem connection in progress. Please wait. This process will timeout after 2 "
 "minutes."
 msgstr ""
+"Modeemiyhteyttä muodostetaan. Odota. Yritys aikakatkaistaan 2 minuutin "
+"kuluttua."
 
 #: protocols/luci-proto-ncm/htdocs/luci-static/resources/protocol/ncm.js:72
 msgid "Modem default"
@@ -3918,7 +3920,7 @@ msgstr "Modeemilaite"
 
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:41
 msgid "Modem disconnection in progress. Please wait."
-msgstr ""
+msgstr "Modeemiyhteyden katkaisu käynnissä. Odota."
 
 #: modules/luci-compat/luasrc/model/network/proto_ncm.lua:66
 #: protocols/luci-proto-ncm/htdocs/luci-static/resources/protocol/ncm.js:24
@@ -3933,7 +3935,7 @@ msgstr "Modeemin aikakatkaisu"
 
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:44
 msgid "Modem is disabled."
-msgstr ""
+msgstr "Modeemi on poistettu käytöstä."
 
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:52
 msgid "ModemManager"
@@ -4363,7 +4365,7 @@ msgstr ""
 "Vain jos nykyinen aktiivinen orja epäonnistuu ja ensisijainen orja on päällä "
 "(vika, 2)"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:439
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:444
 #: modules/luci-mod-system/luasrc/model/cbi/admin_system/backupfiles.lua:19
 msgid "Open list..."
 msgstr "Avaa lista..."
@@ -5506,7 +5508,7 @@ msgstr "Välimuisti"
 #: modules/luci-compat/luasrc/view/cbi/error.htm:17
 #: modules/luci-compat/luasrc/view/cbi/footer.htm:26
 #: modules/luci-compat/luasrc/view/cbi/header.htm:20
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:430
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:435
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/startup.js:123
 msgid "Save"
 msgstr "Tallenna"
@@ -5521,11 +5523,11 @@ msgstr "Tallenna ja käytä"
 msgid "Save error"
 msgstr "Tallennusvirhe"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:401
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:406
 msgid "Save mtdblock"
 msgstr "Tallenna mtdblock"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:389
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:396
 msgid "Save mtdblock contents"
 msgstr "Tallenna mtdblock sisältö"
 
@@ -5659,7 +5661,7 @@ msgstr "Lyhyt GI"
 msgid "Short Preamble"
 msgstr "Lyhyt johdanto-osa"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:437
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:442
 #: modules/luci-mod-system/luasrc/model/cbi/admin_system/backupfiles.lua:18
 msgid "Show current backup file list"
 msgstr "Näytä nykyinen varmuuskopiotiedostoluettelo"
@@ -5744,7 +5746,7 @@ msgstr "Pahus, pyytämääsi objektia ei löytynyt."
 msgid "Sorry, the server encountered an unexpected error."
 msgstr "Pahus, palvelin kohtasi odottamattoman virheen."
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:409
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:414
 msgid ""
 "Sorry, there is no sysupgrade support present; a new firmware image must be "
 "flashed manually. Please refer to the wiki for device specific install "
@@ -6540,7 +6542,7 @@ msgstr ""
 "\"server=1.2.3.4\" toimialuekohtaisissa tai muissa <abbr title=\"Domain Name "
 "System\">DNS</abbr> palvelimessa."
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:421
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:426
 #: modules/luci-mod-system/luasrc/model/cbi/admin_system/backupfiles.lua:16
 msgid ""
 "This is a list of shell glob patterns for matching files and directories to "
@@ -6819,7 +6821,7 @@ msgstr "Tuntematon"
 
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:47
 msgid "Unknown and unsupported connection method."
-msgstr ""
+msgstr "Tuntematon ja ei-tuettu yhteysmenetelmä."
 
 #: modules/luci-base/htdocs/luci-static/resources/network.js:2276
 #: modules/luci-compat/luasrc/model/network.lua:1138
@@ -6880,7 +6882,7 @@ msgstr "Viivästys"
 msgid "Upload"
 msgstr "Lähetä"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:408
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:413
 msgid ""
 "Upload a sysupgrade-compatible image here to replace the running firmware."
 msgstr ""

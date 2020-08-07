@@ -1,9 +1,18 @@
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
+msgstr ""
+"PO-Revision-Date: 2020-08-05 13:29+0000\n"
+"Last-Translator: SunSpring <yearnsun@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
+"openwrt/luciapplicationssmartdns/zh_Hans/>\n"
+"Language: zh_Hans\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.2-dev\n"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:424
 msgid "Additional Args for upstream dns servers"
-msgstr "额外的上游DNS服务器参数"
+msgstr "额外的上游 DNS 服务器参数"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:423
 msgid "Additional Server Args"
@@ -26,7 +35,7 @@ msgstr "缓存大小"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:146
 msgid "Collecting data ..."
-msgstr ""
+msgstr "正在收集数据..."
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:451
 msgid ""
@@ -107,11 +116,11 @@ msgstr "双栈IP优选"
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:237
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:333
 msgid "Enable"
-msgstr ""
+msgstr "启用"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:189
 msgid "Enable IP selection between IPV4 and IPV6"
-msgstr "启用或禁用IPV4，IPV6间的IP优选策略。"
+msgstr "启用 IPV4 和 IPV6 间的 IP 优选策略"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:183
 msgid "Enable IPV6 DNS Server"
@@ -150,7 +159,7 @@ msgstr "停用IPV6地址解析。"
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:155
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:329
 msgid "General Settings"
-msgstr "基本设置"
+msgstr "常规设置"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:318
 msgid "Generate Coredump"
@@ -165,7 +174,7 @@ msgstr ""
 
 #: applications/luci-app-smartdns/root/usr/share/rpcd/acl.d/luci-app-smartdns.json:3
 msgid "Grant access to LuCI app smartdns"
-msgstr ""
+msgstr "授予 luci 应用 smartdns 的访问权限"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:403
 msgid "HTTP Host"
@@ -202,11 +211,11 @@ msgstr "本地端口"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:233
 msgid "Maximum TTL for all domain result."
-msgstr "设置所有域名的TTL最大值"
+msgstr "所有域名的最大 TTL 值。"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:224
 msgid "Minimum TTL for all domain result."
-msgstr "设置所有域名的TTL最小值"
+msgstr "所有域名的最小 TTL 值。"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:86
 msgid "NOT RUNNING"
@@ -251,11 +260,11 @@ msgstr "服务器名称"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:433
 msgid "Set Specific domain ip address."
-msgstr "指定特定域名的IP地址"
+msgstr "设置指定域名的IP地址。"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:434
 msgid "Set Specific ip blacklist."
-msgstr "设置IP黑名单列表"
+msgstr "设置指定的 IP 黑名单列表。"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:384
 msgid "Set TLS hostname to verify."
@@ -387,7 +396,7 @@ msgstr "TLS SPKI 指纹"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:219
 msgid "TTL for all domain result."
-msgstr "设置所有域名的TTL值"
+msgstr "设置所有域名的 TTL 值。"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:461
 msgid "Technical Support"
@@ -401,30 +410,26 @@ msgstr "上游服务器"
 msgid ""
 "Upstream Servers, support UDP, TCP protocol. Please configure multiple DNS "
 "servers, including multiple foreign DNS servers."
-msgstr ""
-"上游DNS服务器列表，支持UDP，TCP协议，请配置多个上游DNS服务器，包括多个国内外"
-"服务器"
+msgstr "上游 DNS 服务器，支持 UDP，TCP 协议。请配置多个上游 DNS 服务器，包括多个国内外服务器。"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:413
 msgid ""
 "Used to verify the validity of the TLS server, The value is Base64 encoded "
 "SPKI fingerprint, leaving blank to indicate that the validity of TLS is not "
 "verified."
-msgstr ""
-"用于校验TLS服务器的有效性，数值为Base64编码的SPKI指纹, 留空表示不验证TLS的合"
-"法性"
+msgstr "用于校验 TLS 服务器的有效性，数值为 Base64 编码的 SPKI 指纹，留空表示不验证 TLS 的合法性。"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:361
 msgid "https"
-msgstr ""
+msgstr "https"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:342
 msgid "ip"
-msgstr ""
+msgstr "ip"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:208
 msgid "none"
-msgstr ""
+msgstr "无"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:467
 msgid "open website"
@@ -440,11 +445,11 @@ msgstr "smartdns 自定义设置，具体配置参数参考指导"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:359
 msgid "tcp"
-msgstr ""
+msgstr "tcp"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:360
 msgid "tls"
-msgstr ""
+msgstr "tls"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:356
 msgid "type"
@@ -452,4 +457,4 @@ msgstr "类型"
 
 #: applications/luci-app-smartdns/htdocs/luci-static/resources/view/smartdns/smartdns.js:358
 msgid "udp"
-msgstr ""
+msgstr "udp"

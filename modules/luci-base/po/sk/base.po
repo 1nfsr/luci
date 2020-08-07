@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2020-06-09 21:41+0000\n"
-"Last-Translator: Miloš Leškanič <leskanic@gmail.com>\n"
+"PO-Revision-Date: 2020-08-05 13:29+0000\n"
+"Last-Translator: Chaoos <all@chaoos.com>\n"
 "Language-Team: Slovak <https://hosted.weblate.org/projects/openwrt/luci/sk/>"
 "\n"
 "Language: sk\n"
@@ -10,7 +10,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.1-dev\n"
+"X-Generator: Weblate 4.2-dev\n"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:929
 msgid "%.1f dB"
@@ -227,29 +227,31 @@ msgstr "Názov <abbr title=\"Light Emitting Diode\">LED</abbr>"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:424
 msgid "<abbr title=\"Media Access Control\">MAC</abbr>-Address"
-msgstr ""
+msgstr "<abbr title=\"Kontrola prístupu k médiu\">MAC</abbr>-adresa"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:491
 msgid "<abbr title=\"The DHCP Unique Identifier\">DUID</abbr>"
-msgstr "<abbr title=\"The DHCP Unique Identifier\">DUID</abbr>"
+msgstr "<abbr title=\"Jedinečný identifikátor DHCP\">DUID</abbr>"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:328
 msgid ""
 "<abbr title=\"maximal\">Max.</abbr> <abbr title=\"Dynamic Host Configuration "
 "Protocol\">DHCP</abbr> leases"
 msgstr ""
-"<abbr title=\"maximalny\">Max. počet</abbr> <abbr title=\"Dynamic Host "
-"Configuration Protocol\">DHCP</abbr> prenájmov"
+"<abbr title=\"maximalny\">Max. počet</abbr> <abbr title=\"Konfiguračný "
+"protokol dynamického hostiteľa\">DHCP</abbr> prenájmov"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:337
 msgid ""
 "<abbr title=\"maximal\">Max.</abbr> <abbr title=\"Extension Mechanisms for "
 "Domain Name System\">EDNS0</abbr> packet size"
 msgstr ""
+"<abbr title=\"maximálna\">Max.</abbr> veľkosť paketu <abbr title=\"Mechanizmy"
+" rozšírenia pre systém názvov domén\">EDNS0</abbr>"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:346
 msgid "<abbr title=\"maximal\">Max.</abbr> concurrent queries"
-msgstr ""
+msgstr "<abbr title=\"maximálny\">Max.</abbr> počet súbežných dotazov"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/crontab.js:29
 msgid ""
@@ -850,7 +852,7 @@ msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:193
 msgid "Available"
-msgstr "Dostupné"
+msgstr "Dostupný"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/bandwidth.js:268
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/bandwidth.js:278
@@ -1122,7 +1124,7 @@ msgstr "Kontroluje sa archív…"
 msgid "Checking image…"
 msgstr "Kontroluje sa obraz…"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:392
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:399
 msgid "Choose mtdblock"
 msgstr ""
 
@@ -1160,7 +1162,7 @@ msgstr ""
 "Kliknutím na „Generovať archív“ stiahnete archív tar s aktuálnymi "
 "konfiguračnými súbormi."
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:389
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:396
 msgid ""
 "Click \"Save mtdblock\" to download specified mtdblock file. (NOTE: THIS "
 "FEATURE IS FOR PROFESSIONALS! )"
@@ -1241,7 +1243,7 @@ msgid "Compute outgoing checksum (optional)."
 msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3987
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:421
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:426
 msgid "Configuration"
 msgstr "Konfigurácia"
 
@@ -1705,7 +1707,7 @@ msgstr ""
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1688
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:330
 msgid "Dismiss"
-msgstr "Zamietnuť"
+msgstr "Zavrieť"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:895
 msgid "Distance Optimization"
@@ -1790,7 +1792,7 @@ msgstr ""
 msgid "Download backup"
 msgstr "Stiahnuť zálohu"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:399
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:404
 msgid "Download mtdblock"
 msgstr "Stiahnuť mtdblock"
 
@@ -2256,7 +2258,7 @@ msgid "Fixed source port for outbound DNS queries"
 msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:283
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:416
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:421
 msgid "Flash image..."
 msgstr "Nahrať obraz..."
 
@@ -2264,7 +2266,7 @@ msgstr "Nahrať obraz..."
 msgid "Flash image?"
 msgstr ""
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:406
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:411
 msgid "Flash new firmware image"
 msgstr "Nahrať obraz s novým firmvérom"
 
@@ -2583,7 +2585,7 @@ msgstr ""
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/40_dhcp.js:56
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:140
 msgid "Host"
-msgstr ""
+msgstr "Hostiteľ"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/hosts.js:22
 msgid "Host entries"
@@ -2678,8 +2680,9 @@ msgid "IPv4 Firewall"
 msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/30_network.js:29
+#, fuzzy
 msgid "IPv4 Upstream"
-msgstr ""
+msgstr "IPv4 prúd"
 
 #: modules/luci-base/htdocs/luci-static/resources/protocol/static.js:178
 #: protocols/luci-proto-bonding/htdocs/luci-static/resources/protocol/bonding.js:162
@@ -2938,7 +2941,7 @@ msgstr "Ignorovať rozhranie"
 msgid "Ignore resolve file"
 msgstr ""
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:414
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:419
 msgid "Image"
 msgstr "Obraz"
 
@@ -4233,7 +4236,7 @@ msgid ""
 "Only if current active slave fails and the primary slave is up (failure, 2)"
 msgstr ""
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:439
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:444
 #: modules/luci-mod-system/luasrc/model/cbi/admin_system/backupfiles.lua:19
 msgid "Open list..."
 msgstr "Otvoriť zoznam..."
@@ -5337,7 +5340,7 @@ msgstr ""
 #: modules/luci-compat/luasrc/view/cbi/error.htm:17
 #: modules/luci-compat/luasrc/view/cbi/footer.htm:26
 #: modules/luci-compat/luasrc/view/cbi/header.htm:20
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:430
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:435
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/startup.js:123
 msgid "Save"
 msgstr "Uložiť"
@@ -5352,11 +5355,11 @@ msgstr "Uložiť a použiť"
 msgid "Save error"
 msgstr ""
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:401
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:406
 msgid "Save mtdblock"
 msgstr "Uložiť mtdblock"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:389
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:396
 msgid "Save mtdblock contents"
 msgstr "Uložiť obsah mtdblock"
 
@@ -5485,7 +5488,7 @@ msgstr ""
 msgid "Short Preamble"
 msgstr ""
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:437
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:442
 #: modules/luci-mod-system/luasrc/model/cbi/admin_system/backupfiles.lua:18
 msgid "Show current backup file list"
 msgstr ""
@@ -5570,7 +5573,7 @@ msgstr "Prepáčte, objekt, ktorý ste požadovali sa nenašiel."
 msgid "Sorry, the server encountered an unexpected error."
 msgstr "Prepáčte, serve narazil na neočakávanú chybu."
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:409
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:414
 msgid ""
 "Sorry, there is no sysupgrade support present; a new firmware image must be "
 "flashed manually. Please refer to the wiki for device specific install "
@@ -6282,7 +6285,7 @@ msgid ""
 "Name System\">DNS</abbr> servers."
 msgstr ""
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:421
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:426
 #: modules/luci-mod-system/luasrc/model/cbi/admin_system/backupfiles.lua:16
 msgid ""
 "This is a list of shell glob patterns for matching files and directories to "
@@ -6434,7 +6437,7 @@ msgstr ""
 #: modules/luci-base/htdocs/luci-static/resources/network.js:2870
 #: modules/luci-compat/luasrc/model/network.lua:1431
 msgid "Tunnel Interface"
-msgstr ""
+msgstr "Rozhranie tunela"
 
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/464xlat.js:44
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/dslite.js:55
@@ -6610,7 +6613,7 @@ msgstr ""
 msgid "Upload"
 msgstr "Odovzdať"
 
-#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:408
+#: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:413
 msgid ""
 "Upload a sysupgrade-compatible image here to replace the running firmware."
 msgstr ""
