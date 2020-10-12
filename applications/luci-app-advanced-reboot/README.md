@@ -14,7 +14,9 @@ Currently supported dual-partition devices include:
 - Linksys E4200v2
 - Linksys EA4500
 - Linksys EA6350v3
+- Linksys EA7300v2
 - Linksys EA8300
+- Linksys MR8300
 - Linksys EA8500
 - Linksys WRT1200AC
 - Linksys WRT1900AC

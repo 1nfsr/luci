@@ -282,6 +282,13 @@ return view.extend({
 		o.validate = validateServerSpec;
 
 
+		o = s.taboption('general', form.DynamicList, 'address', _('Addresses'),
+			_('List of domains to force to an IP address.'));
+		
+		o.optional = true;
+		o.placeholder = '/router.local/192.168.0.1';
+
+
 		o = s.taboption('general', form.Flag, 'rebind_protection',
 			_('Rebind protection'),
 			_('Discard upstream RFC1918 responses'));
@@ -425,11 +432,8 @@ return view.extend({
 		so.datatype = 'list(unique(macaddr))';
 		so.rmempty  = true;
 		so.cfgvalue = function(section) {
-			var macs = uci.get('dhcp', section, 'mac'),
+			var macs = L.toArray(uci.get('dhcp', section, 'mac')),
 			    result = [];
-
-			if (!Array.isArray(macs))
-				macs = (macs != null && macs != '') ? macs.split(/\ss+/) : [];
 
 			for (var i = 0, mac; (mac = macs[i]) != null; i++)
 				if (/^([0-9a-fA-F]{1,2}):([0-9a-fA-F]{1,2}):([0-9a-fA-F]{1,2}):([0-9a-fA-F]{1,2}):([0-9a-fA-F]{1,2}):([0-9a-fA-F]{1,2})$/.test(mac))
