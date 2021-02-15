@@ -1,0 +1,12 @@
+#!/bin/sh
+
+if [ "$PKG_UPGRADE" !=1 ]; then
+	uci get luci.themes.knowhere >/dev/null 2>&1 || \
+	uci batch <<-EOF
+		set luci.theme.knowhere=/luci-static/knowhere
+		set luci.main.mediaurlbase=/luci-static/knowhere
+		commit luci
+	EOF
+fi
+
+exit 0
